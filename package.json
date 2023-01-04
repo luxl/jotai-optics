@@ -1,11 +1,11 @@
 {
-  "name": "jotai-optics",
-  "description": "👻💎",
-  "version": "0.2.0",
+  "name": "jotai-optics-v2-api-allen",
+  "description": "👻💎, forked from jotai-lab, but the v2 jotai api change haven't merged, so I can only fork and merge it myself",
+  "version": "0.2.1",
   "author": "merisbahti",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jotai-labs/jotai-optics.git"
+    "url": "https://github.com/luxl/jotai-optics.git"
   },
   "source": "./src/index.ts",
   "main": "./dist/index.umd.js",
@@ -80,7 +80,7 @@
     "webpack-dev-server": "^4.11.1"
   },
   "peerDependencies": {
-    "jotai": ">=1.11.0",
+    "jotai": ">=1.12.0",
     "optics-ts": "*"
   }
 }
